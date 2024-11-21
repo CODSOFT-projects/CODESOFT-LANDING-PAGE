@@ -22,14 +22,17 @@ const Navbar = () => {
   const menuOptions = [
     {
       text: "Home",
+
       icon: <HomeIcon />,
     },
     {
       text: "About",
+
       icon: <InfoIcon />,
     },
     {
       text: "Testimonials",
+
       icon: <CommentRoundedIcon />,
     },
     {
@@ -48,7 +51,9 @@ const Navbar = () => {
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
-        <a href="">About</a>
+        <a href="" id="about">
+          About
+        </a>
         <a href="">Testimonials</a>
         <a href="">Contact</a>
         <a href="">
